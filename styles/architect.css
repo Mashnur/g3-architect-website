@@ -87,6 +87,47 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+.fact-title{
+    color: var(--Dark-01, #131313);
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.text-light-gray{
+    color: var(--Dark-03, #727272);
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+/* facts card style */
+.facts-card-container .card{
+    border-radius: 8px;
+border: 1px solid #FF900E;
+text-align: center;
+padding: 30px;
+
+}
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.facts-card-container .card-stats{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 20px;
+
+}
+.facts-card-container .card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+
 
 /* responsive media query */
 @media screen and (max-width:576px){
